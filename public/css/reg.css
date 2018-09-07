@@ -1,0 +1,26 @@
+.container1{
+	  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+}
+.row{
+width: 700px}
+.btn{
+	background-color: #f5f5f5;
+	color: #666;
+	border: 2px solid #ddd !important;
+}
+
+@media all and (max-width: 800px) {
+
+.container1{
+	  display: flex;
+  flex-flow: row;
+  margin-top: 50px;
+
+}
+
+}

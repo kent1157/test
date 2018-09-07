@@ -1,0 +1,696 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body,html{
+  
+  z-index: -1 !important;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+.panel-view{
+  height: 550px;
+  width: 1000px !important;
+}
+.container3{
+  display: flex;
+  justify-content: center;
+  width: 1185px !important;
+      color: #777;
+      z-index: 22;
+      background: none;
+       background-color: none;
+      z-index: -1;
+
+}
+.left-panel{
+  width: 200px;
+  height: 548px;
+  border: 1px solid #ddd;
+  background-color: #e7e7e7;
+  float: left;
+}
+.name-uk{
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  padding: 15px;
+  background-color: #e7e7e7;
+  font-weight: bold;
+}
+
+.name-uk1{
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.list-group-item:hover{
+  color: black;
+  cursor: pointer;
+}
+
+.list-group-item{
+  font-size: 12px;
+ 
+}
+
+#list-group-item1>div{
+            width: 20%;
+  float: right;
+            height: 30px;
+              background-image: url(/shu.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            z-index: 50;
+          }
+
+          #list-group-item3>div{
+            width: 20%;
+  float: right;
+            height: 30px;
+              background-image: url(/mic.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+          #list-group-item2>div{
+            width: 20%;
+  float: right;
+            height: 30px;
+              background-image: url(/aks.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+          #list-group-item4>div{
+            width: 20%;
+  float: right;
+            height: 30px;
+              background-image: url(/mic.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+           #list-group-item5>div{
+            width: 20%;
+  float: right;
+            height: 30px;
+              background-image: url(/calibr.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+
+          #list-group-item6>div{
+            width: 20%;
+  float: right;
+            height: 30px;
+              background-image: url(/not.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+
+            #list-group-item7>div{
+            width: 20%;
+  float: right;
+            height: 30px;
+              background-image: url(/2mi.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+
+          #list-group-item8>div{
+            width: 20%;
+  float: right;
+            height: 30px;
+              background-image: url(/kol1.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+
+.right-panel{
+
+  width: 768px;
+  height: 548px;
+  border: 1px solid #ddd;
+  float: left;
+  display: none;
+  z-index: 1000;
+  background: white;
+  
+  left: 307px;
+
+}
+.left{
+  float: left;
+  font-size: 13px;
+  width: 250px;
+  margin-top: 20px;
+
+}
+.left1{
+  float: left;
+  font-size: 14px;
+  width: 500px;
+
+}
+.lil{
+  width: 250px;
+}
+
+canvas{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+
+.draggable{
+  font-size: x-large;
+            text-align: center;
+            padding:10px;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            font-size: 12px;
+            display: none;
+            cursor: pointer;
+
+          }
+
+          #draggable5{
+            width: 150px;
+            height: 120px;
+
+          }
+          #draggable5>div{
+            width: 100%;
+            height: 100%;
+              background-image: url(/not.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+
+           #draggable6{
+            width: 150px;
+            height: 80px;
+
+          }
+          #draggable6>div{
+            width: 100%;
+            height: 100%;
+              background-image: url(/2mi.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+          
+          #draggable1{
+            width: 180px;
+            height: 150px;
+
+          }
+
+           #draggable1>div{
+            width: 100%;
+            height: 100%;
+              background-image: url(/shu.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+
+
+          #draggable2{
+            width: 120px;
+            height: 100px;
+
+          }
+
+           #draggable2>div{
+            width: 100%;
+            height: 100%;
+               background-image: url(/aks.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+
+          .bot{
+            margin-top: 135px;
+            font-size: 12px;
+            height: 250px;
+          }
+
+          .bot1{
+            margin-top: 115px;
+            font-size: 12px;
+            height: 270px;
+          }
+          .bot div{
+            width: 100%;
+            height: 100%;
+            background-image: url(/mic.png);
+            background-size: contain;
+
+          }
+
+          .bot1 div{
+            width: 100%;
+            height: 100%;
+            background-image: url(/kal.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+
+          }
+         
+
+  .right-panel1{
+
+  width: 768px;
+  height: 548px;
+  border: 1px solid #ddd;
+  float: left;
+  position: relative;
+   background: none;
+       background-color: none;
+       z-index: 100;
+}
+.panel{
+   background: none;
+       background-color: none;
+}
+#right-panel{
+
+  z-index: 1;
+  opacity: 1;
+  
+}
+
+.bk{
+background-image: url(/bk.png);
+}
+
+.bk1{
+  background-image: url(/bk1.png);
+}
+#example{
+   width:100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+
+}
+.right1{
+  width: 190px;
+  height: 100%;
+  border: 2px solid #ddd;
+  border-left: 1px;
+  padding-bottom: 20px;
+
+}
+
+.vibr{
+  width: 100%;
+  height: 50px;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.vibr1{
+  width: 100%;
+  height: 30px;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+
+.leftside{
+width: 310px;
+height: 100%;
+background: white;
+padding: 20px;
+padding-top: 60px;
+border-right: 2px solid #ddd;
+z-index: 100;
+top: 0px;
+position: fixed;
+color: #777;
+display: none;
+    left: 0px;
+}
+.ui-progressbar {
+    position: relative;
+  }
+  .progress-label {
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }
+.progress-label1 {
+    position: absolute;
+    left: 30%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }
+
+  .progress-label2 {
+    position: absolute;
+    left: 30%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }
+  .button7but{
+    margin:  10px;
+  }
+
+  .windshu{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 50;
+ 
+    background: white;
+  }
+
+  .right_op{
+    width: 400px;
+    height: 100%;
+    float: left;
+    border-right: 2px solid #ddd;
+  }
+  .sp_name{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+  }
+ .ports{
+  width: 100%;
+  height: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+ }
+ .name_port{
+  font-weight: bold;
+  float: left;
+
+ }
+
+ .port{
+  float: left;
+  height: 100%;
+  width: 60px;
+cursor: pointer;
+  margin-right: 5px;
+    margin-left: 5px;
+
+ }
+ .port_n{
+  width: 100%;
+  height: 20px;
+
+  text-align: center;
+  font-weight: bold;
+ }
+ .port_img{
+  width: 60px;
+  height: 60px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            box-shadow: 0 0 5px red; 
+ }
+.port_img:hover{
+  box-shadow: 0 0 5px yellow; 
+}
+ .usb{
+    background-image: url(/usb_b.jpg);
+ }
+ .usb1{
+    background-image: url(/usb.jpg);
+ }
+  .usb_b{
+    background-image: url(/upr.jpg);
+    background-position: center;
+ }
+ .mic_in{
+  background-image: url(/mic_in.jpg);
+ }
+ .photo_ob{
+  width: 100%;
+  height: 400px;
+  margin-top: 15px;
+  background-size: contain;
+            background-repeat: no-repeat;
+            
+
+
+ }
+ .shum_photo{
+  background-image: url(/shum.jpg);
+ }
+
+  .not_photo{
+  background-image: url(/not.png);
+ }
+
+ .left_op
+ {
+  height: 100%;
+  width: 366px;
+      float: left;
+ }
+
+ .ustr{
+  width: 100%;
+  height: 250px;
+
+  padding-right: 20px;
+    padding-left: 20px;
+ }
+
+ .ustr_v{
+  width: 90px;
+  height: 90px;
+  margin: 8px;
+  float: left;
+  padding: 5px;
+  cursor: pointer;
+ }
+ .ustr_v:hover{
+  box-shadow: 0 0 5px #ddd; 
+ }
+
+ .ustr_n{
+  width: 100%;
+  height: 15px;
+  text-align: center;
+  line-height: 10px;
+  font-size: 11px;
+ }
+ .ustr_p{
+  width: 80px;
+  height:70px;
+  background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+
+ }
+ .po{
+  width: 180px;
+  height: 100px;
+    background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url(/po.png);
+            margin-top:55px;
+            position: absolute;
+            margin-left: 180px;
+            z-index: 111;
+ }
+
+ .token{
+  width: 30px;
+  height: 25px;
+    background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url(/token.png);
+            margin-top:248px;
+            position: absolute;
+            margin-left: 255px;
+            z-index: 111;
+ }
+.not{
+              background-image: url(/not.png);
+}
+
+.aks{
+              background-image: url(/aks.png);
+}
+.kal_port{
+              background-image: url(/kal_port.png);
+              background-position: center;
+}
+.aks1{
+              background-image: url(/aks.jpg);
+}
+.mic{
+              background-image: url(/mic.jpg);
+}
+.shu{
+              background-image: url(/shu.jpg);
+}
+.kol{
+              background-image: url(/kol.jpg);
+}
+
+.kal{
+              background-image: url(/kal.jpg);
+}
+
+.mi_port{
+  background-image: url(/2mi_port.png);
+  background-position: center;
+}
+
+.mi_upr{
+background-image: url(/2mi_upr.png);
+background-position: center;
+}
+.mi{
+   background-image: url(/2mi.png);
+}
+.prov{
+  height: 280px;
+  margin-top: 8px;
+  width: 100%;
+}
+.name_pro{
+  margin: 10px;
+}
+.prov_v{
+  width: 100%;
+  height: 30px;
+}
+.cab_p{
+  background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url(/cab.jpg);
+            width: 100px;
+            height: 30px;
+            line-height: center;
+            margin-top: 5px;
+            cursor: pointer;
+}
+
+
+.cabel_usb{
+  background-image: url(/cabusb.png);
+}
+
+.cabel_mic{
+  background-image: url(/cabmic.png);
+}
+
+.cabel_cal{
+  background-image: url(/cabcal.png);
+}
+.lab{
+  width: 200px;
+}
+#provod_shu_usb{
+  display: none;
+}
+#ustr_not_big{
+  display: none;
+}
+
+.ustr_photo{
+  width: 150px;
+  height: 200px;
+   background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            float: left;
+}
+.ustr_port{
+  width: 160px;
+  margin-left: 10px;
+  height: 200px;
+ float: left;
+}
+
+#left_shu_usb{
+  display: none;
+}
+
+.kn{
+  float: right;
+}
+#shum_prop{
+  display: none;
+}
+#shum_prop_not{
+  display: none;
+}
+
+.shum{
+  background-image: url(/shu.png);
+}
+
+
+#ustr_not1_big{
+  display: none;
+}
+#left_not_usb{
+  display: none;
+}
+
+#provod_not_usb{
+  display: none;
+}
+
+ .warn{
+                        width: 100%;
+                        height: 50px;
+                        background: red;
+                        color: white;
+                        line-height: 30px;
+                        padding: 10px;
+                        font-weight: bold;
+                        position: fixed;
+                        right: 0px;
+                        top: 0px;
+                        display: none;
+                        z-index: 150;
+                        text-align: center;
+                        font-size: 16px;
+                      }
+                      .timer{
+                        width: 200px;
+                        height: 50px;
+                        position: fixed;
+                        top: 0;
+                        z-index: 149;
+                        line-height: 50px;
+                        font-weight: bold;
+                      }
+                      .timer1{
+                        width: 350px;
+                        
+                        position: fixed;
+                        top: 0;
+                        line-height: 50px;
+                      }
+                      #kolvo{
+                        font-size: 25px;
+                      }
+
+                      .form-check{
+                        width: 300px;
+                      }
